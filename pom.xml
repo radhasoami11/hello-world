@@ -7,5 +7,19 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <groupId>org.apache.maven</groupId>  
   <artifactId>war</artifactId>  
   <version>1</version>  
-  
-</project>
+
+  <groupId>org.apache.maven.plugins</groupId>  
+
+
+
+  <artifactId>mave-pmd-plugin</artifactId>  
+
+
+
+  <version>3.0.1</version>  
+
+
+
+  <executions>
+
+</project> 
