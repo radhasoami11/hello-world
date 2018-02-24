@@ -4,22 +4,20 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
   
   <modelVersion>4.0.0</modelVersion>  
-  <groupId>org.apache.maven</groupId>  
-  <artifactId>war</artifactId>  
-  <version>1</version>  
-
-  <groupId>org.apache.maven.plugins</groupId>  
-
-
-
+   <groupId>org.apache.maven.plugins</groupId>  
   <artifactId>mave-pmd-plugin</artifactId>  
+ <version>3.0.1</version>  
 
+<execution>
+ <id>pmd</id>
 
+    <phase>compile</phase>
 
-  <version>3.0.1</version>  
+ <goals>
 
+ <goal>check </goal>
 
+ </execution>
 
-  <executions>
 
 </project> 
